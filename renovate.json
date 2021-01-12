@@ -4,5 +4,12 @@
   },
   "gradle": {
     "enabled": true
-  }
+  },
+  "packageRules": [
+    {
+      "packagePatterns": ["*"],
+      "managers": ["gradle-lite"],
+      "groupName": "Gradle packages"
+    }
+  ]
 }
