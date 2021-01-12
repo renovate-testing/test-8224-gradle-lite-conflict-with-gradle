@@ -1,9 +1,9 @@
 {
   "gradle-lite": {
-    "enabled": false
+    "enabled": true
   },
   "gradle": {
-    "enabled": true
+    "enabled": false
   },
   "packageRules": [
     {
