@@ -1,4 +1,7 @@
 {
+  "gradle-wrapper": {
+    "enabled": false
+  },
   "gradle-lite": {
     "enabled": true
   },
