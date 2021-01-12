@@ -1,6 +1,6 @@
 {
   "gradle-lite": {
-    "enabled": true
+    "enabled": false
   },
   "gradle": {
     "enabled": true
