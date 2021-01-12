@@ -14,7 +14,7 @@ buildscript {
 plugins {
 	java
 	kotlin("jvm") version "1.4.0"
-	kotlin("plugin.spring") version "1.4.0"
+	kotlin("plugin.spring") version "1.4.21-2"
 	id("io.gitlab.arturbosch.detekt") version "1.15.0"
 	id("org.springframework.boot") version "2.4.1"
 	id("com.github.jk1.dependency-license-report") version "1.16"
