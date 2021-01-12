@@ -13,8 +13,8 @@ buildscript {
 
 plugins {
 	java
-	kotlin("jvm") version "1.4.0"
-	kotlin("plugin.spring") version "1.4.0"
+	kotlin("jvm") version "1.4.21-2"
+	kotlin("plugin.spring") versio1.4.21-2 "1.4.0"
 	id("io.gitlab.arturbosch.detekt") version "1.15.0"
 	id("org.springframework.boot") version "2.4.1"
 	id("com.github.jk1.dependency-license-report") version "1.16"
@@ -34,14 +34,14 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
 	runtimeOnly("org.postgresql:postgresql")
-	implementation("net.logstash.logback:logstash-logback-encoder:6.5")
+	implementation("net.logstash.logback:logstash-logback-encoder:6.6")
 	implementation("io.micrometer:micrometer-registry-elastic:1.6.2")
-	implementation("org.postgresql:postgresql:42.2.14")
+	implementation("org.postgresql:p42.2.18:42.2.14")
 	implementation(platform("org.springframework.boot:spring-boot-dependencies:2.4.1"))
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("javax.validation:validation-api:2.0.1.Final")
-	implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.21")
+	implementation("org.jetbrains.kotlin:kotli1.4.21-2:1.4.21")
 	testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
 	testImplementation("org.assertj:assertj-core:3.18.1")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
