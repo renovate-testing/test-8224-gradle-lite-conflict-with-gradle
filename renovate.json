@@ -3,6 +3,6 @@
     "enabled": true
   },
   "gradle": {
-    "enabled": false
+    "enabled": true
   }
 }
