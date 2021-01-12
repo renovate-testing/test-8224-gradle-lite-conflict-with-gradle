@@ -1,20 +1,8 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-
-  "extends": [
-    "config:base"
-  ],
   "gradle-lite": {
     "enabled": true
   },
   "gradle": {
     "enabled": false
-  },
-  "packageRules": [
-    {
-      "packagePatterns": ["*"],
-      "managers": ["gradle-lite"],
-      "groupName": "Gradle packages"
-    }
-  ]
+  }
 }
