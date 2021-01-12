@@ -36,7 +36,7 @@ dependencies {
 	runtimeOnly("org.postgresql:postgresql")
 	implementation("net.logstash.logback:logstash-logback-encoder:6.5")
 	implementation("io.micrometer:micrometer-registry-elastic:1.6.2")
-	implementation("org.postgresql:postgresql:42.2.14")
+	implementation("org.postgresql:postgresql:42.2.18")
 	implementation(platform("org.springframework.boot:spring-boot-dependencies:2.4.1"))
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-web")
