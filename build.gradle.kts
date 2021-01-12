@@ -41,7 +41,7 @@ dependencies {
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-web")
 	implementation("javax.validation:validation-api:2.0.1.Final")
-	implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.21")
+	implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.21-2")
 	testImplementation("org.junit.jupiter:junit-jupiter:5.7.0")
 	testImplementation("org.assertj:assertj-core:3.18.1")
 	testImplementation("org.springframework.boot:spring-boot-starter-test")
